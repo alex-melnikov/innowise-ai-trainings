@@ -1,0 +1,13 @@
+Query 1: Calculate Total Sales for March 2024
+
+This query calculates the total sales volume for March 2024 by:
+1. Using the SUM() function to add up all order amounts
+2. Filtering the data to only include orders from March 2024 using the WHERE clause
+3. The date range is specified from '2024-03-01' to '2024-03-31'
+
+Expected Result: 27,000
+This is the sum of all orders in March:
+- Alice's orders: 5,000 + 3,000 + 2,000 = 10,000
+- Bob's order: 8,000
+- Charlie's order: 9,000
+Total: 27,000 

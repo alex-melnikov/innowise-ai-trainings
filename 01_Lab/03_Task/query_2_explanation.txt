@@ -1,0 +1,15 @@
+Query 2: Find Top-Spending Customer
+
+This query identifies the customer who spent the most overall by:
+1. Grouping all orders by customer using GROUP BY
+2. Calculating the sum of amounts for each customer using SUM()
+3. Ordering the results in descending order by total spent using ORDER BY
+4. Limiting the result to only the top customer using LIMIT 1
+
+Expected Result: Alice with 20,000
+This is calculated as:
+- Alice: 5,000 + 3,000 + 10,000 + 2,000 = 20,000
+- Bob: 8,000 + 4,000 = 12,000
+- Charlie: 7,000 + 9,000 = 16,000
+
+Alice is the top spender with a total of 20,000 across all her orders. 

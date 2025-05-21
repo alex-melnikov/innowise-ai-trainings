@@ -1,0 +1,13 @@
+Query 3: Calculate Average Order Value
+
+This query calculates the average value of all orders by:
+1. Using the AVG() function to compute the mean of all order amounts
+2. The query considers all orders in the database without any filtering
+
+Expected Result: 6,000
+This is calculated as:
+- Total sales: 48,000 (sum of all orders)
+- Number of orders: 8
+- Average = 48,000 / 8 = 6,000
+
+The average order value represents the typical amount spent per order across all customers. 
